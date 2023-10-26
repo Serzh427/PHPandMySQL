@@ -1,3 +1,5 @@
+<!--Задание_1-->
+
 <!DOCTYPE html>
 <?php
 $jobs = [
@@ -166,3 +168,24 @@ $jobs = [
   </footer>
 </body>
 </html>
+
+<!-- Задание_2
+    
+CREATE TABLE employee (
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  name TEXT NOT NULL,
+  age text not null,
+  address text not null
+);
+
+-- insert
+INSERT INTO employee (name, age, address) VALUES ('Галя', '28', 'Москва');
+INSERT INTO employee (name, age, address) VALUES ('Света', '21', 'Москва');
+INSERT INTO employee (name, age, address) VALUES ('Марина', '18', 'Москва');
+INSERT INTO employee (name, age, address) VALUES ('Катя', '30', 'Москва');
+INSERT INTO employee (name, age, address) VALUES ('Клава', '25', 'Москва');
+INSERT INTO employee (name, age, address) VALUES ('Даша', '35', 'Москва');
+
+
+-- fetch 
+SELECT name as Имя FROM employee WHERE (address = 'Москва') and (age >= 18 and age < 30);*/
